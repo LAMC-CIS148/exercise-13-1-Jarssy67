@@ -48,7 +48,7 @@
 				<label for="city">City:</label>
 					<input type="text" name="city" id="city" required><br>
 				<label for="state">State:</label>
-					<input type="text" name="state" id="state" reqired maxlength="2" placeholder="2-character code"><br>
+					<input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
 				<label for="zip">ZIP Code:</label>
 					<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits"
 					 pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
@@ -60,12 +60,12 @@
 					<legend>Ordering Information</legend>
         			<label for="order_type">Order Type:</label>
 					<select name="order_type" id="order_type">
-					<option value"Member">Member Package</option>
-					<option value"Donor">Donor Package</option>
-					<option value"Single">Single Tickets</option>
+					<option value="Member">Member Package</option>
+					<option value="Donor">Donor Package</option>
+					<option value="Single">Single Tickets</option>
 					</select><br>
 				<label for="tickets">Number of Tickets:</label
-					<input type="number" name"tickets" id="tickets" value="2" min"1" max="4" placeholder="Number of Single Tickets><br>		
+					<input type="number" name="tickets" id="tickets" value="2" min="1" max="4" placeholder="Number of Single Tickets><br>		
 			</fieldset>
 			<fieldset>
 					<legend>Payment Method</legend>
